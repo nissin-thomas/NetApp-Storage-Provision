@@ -3,7 +3,7 @@ import fabric
 from getpass import getpass
 
 passwd = getpass()
-con = fabric.Connection("10.3.2.94", port=22, user="admin", connect_kwargs={'password': passwd})
+con = fabric.Connection("<STORAGE_IPADDRESS>", port=22, user="admin", connect_kwargs={'password': passwd})
 excel_file_path = '/storage_excel/Storage_LUN.xlsx'
 df1 = pd.read_excel(excel_file_path)
 df_filtered = df1[df1['Volume Size'] != 0]
