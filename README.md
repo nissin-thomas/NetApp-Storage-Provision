@@ -11,7 +11,7 @@ Install required python libraries using below given commands in the RHEL Server.
 pip install pandas<br>
 pip install fabric<br>
 pip install colorama<br>
-'''''''''''''''''''
+'''''''''''''''''''<br>
 Download the Python script file 'NetApp_Provision_Script.py' and transfer it to the RHEL Server.<br>
 Create a directory '/storage_excel' in the RHEL Server.<br>
 Download the Excel file 'Storage_LUN.xlsx' and save it in a SHARED Windows Folder with appropriate permissions.<br>
