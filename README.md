@@ -18,6 +18,7 @@ Download the Excel file 'Storage_LUN.xlsx' and save it in a SHARED Windows Folde
 Mount the Windows SHARED folder to '/storage_excel' directory in RHEL Server and make sure 'Storage_LUN.xlsx' Excel file is visible there.
 Edit Line number 12 in the script and replace the Storage Names with yours.
 print(Style.BRIGHT + Fore.CYAN + "ADKDCR9STGNTAP1\nADKDCR9STGNTAP2\nADKDCR9STGNTAP3\nADKDCR9STGNTAP4\nADKDCR9STGNTAP5\n" + Style.RESET_ALL)
+
 --------------------------------------------------------------------------------------------------------------------------
 
 If the LUN Type is selected as 'DATASTORE' in the Excel sheet the script will map those LUNs to the IGROUP 'BACKUP_SERV_IGROUP' (IGROUP for Backup Media Server) by default. This is for the purpose enabling SAN backups of the VMWare DATASTORE LUNs. Below given part of the code does this.
