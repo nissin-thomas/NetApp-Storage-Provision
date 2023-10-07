@@ -4,15 +4,15 @@ Pre-requisites
 --------------------------------------------------------------------------------------------------------------------------
 1. RHEL Server version 9.x
 2. Python Version: 3.11 (Other versions also should be compatible)
-Run the command 'python --version' in RHEL Server to verify the version of python.
-Upgrade the python version if neccessary.
-Install required python libraries using below given commands in the RHEL Server
+3. Run the command 'python --version' in RHEL Server to verify the version of python.
+4. Upgrade the python version if neccessary.
+5. Install required python libraries using below given commands in the RHEL Server
 '''''''''''''''''''
 pip install pandas
 pip install fabric
 pip install colorama
 '''''''''''''''''''
-Download the Python script file 'NetApp_Provision_Script.py' and transfer it to the RHEL Server
+6. Download the Python script file 'NetApp_Provision_Script.py' and transfer it to the RHEL Server
 Create a directory '/storage_excel' in the RHEL Server.
 Download the Excel file 'Storage_LUN.xlsx' and save it in a SHARED Windows Folder with appropriate permissions.
 Mount the Windows SHARED folder to '/storage_excel' directory in RHEL Server and make sure 'Storage_LUN.xlsx' Excel file is visible there.
