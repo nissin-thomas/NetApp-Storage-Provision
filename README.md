@@ -21,7 +21,7 @@ pip install colorama<br>
 
 --------------------------------------------------------------------------------------------------------------------------
 - The script supports mapping of LUNs upto two IGROUPs. It is possible to edit the script and make it eligible to map the LUNs to any number of IGROUPs
-- If the LUN Type is selected as 'DATASTORE' in the Excel sheet the script will map those LUNs to the IGROUP         'BACKUP_SERV_IGROUP' (IGROUP for Backup Media Server) by default. This is for the purpose enabling SAN backups of the VMWare DATASTORE LUNs. Below given part of the code does this.<br>
+- If the LUN Type is selected as 'DATASTORE' in the Excel sheet the script will map those LUNs to the IGROUP         'BACKUP_SERV_IGROUP' (IGROUP for Backup Media Server) by default. This is for the purpose of enabling SAN backups of the VMWare DATASTORE LUNs. Below given part of the code does this.<br>
 elif lun_type[i] == "DATASTORE":
     con.run('lun map -vserver ' + svm[i] + ' -volume ' + lun_name[i] + '_VOL -lun ' + lun_name[i] + '_LUN -igroup BACKUP_SERV_IGROUP' )<br>
 
