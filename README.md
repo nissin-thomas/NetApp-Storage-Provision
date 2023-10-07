@@ -2,7 +2,7 @@
 
 Pre-requisites
 --------------------------------------------------------------------------------------------------------------------------
-RHEL Server version 9.x
+RHEL Server version 9.x\n
 Python Version: 3.11 (Other versions also should be compatible)
 Run the command 'python --version' in RHEL Server to verify the version of python.
 Upgrade the python version if neccessary.
