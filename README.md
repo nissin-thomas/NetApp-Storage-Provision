@@ -2,7 +2,7 @@
 
 Pre-requisites<br>
 --------------------------------------------------------------------------------------------------------------------------
-- RHEL Server version 9.x<br>
+- RHEL Server version 9.x. The script is compatible with other Operating Systems as well<br>
 - Python Version: 3.11 (Other versions also should be compatible)<br>
 - Run the command 'python --version' in RHEL Server to verify the version of python.<br>
 - Upgrade the python version if neccessary.<br>
