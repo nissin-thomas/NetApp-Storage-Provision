@@ -32,4 +32,4 @@ elif lun_type[i] == "DATASTORE":
 - Execute the Python script in RHEL Server using the command 'python3.11 NetApp_Provision_Script.py'<br>
 - Login to NetApp Storage Console and verify the LUNs created.<br>
 
-Feel free to contact me on "www.linkedin.com/in/nissin-thomas" for any help.<br>
+Please feel free to contact me on "www.linkedin.com/in/nissin-thomas" for any help.<br>
